@@ -3,7 +3,6 @@ import ExtensionList from "./pages/ExtensionList.tsx";
 
 function App() {
 
-
     return (
         <div className={''}>
             <ExtensionList/>
