@@ -9,7 +9,7 @@ module.exports = {
         extend: {
             colors: {
                 neutral: {
-                    0: 'hsl(200, 60%, 99%)',
+                    50: 'hsl(200, 60%, 99%)',
                     100: 'hsl(0, 0%, 93%)',
                     200: 'hsl(217, 61%, 90%)',
                     300: 'hsl(0, 0%, 78%)',
@@ -32,7 +32,7 @@ module.exports = {
                 base: '16px',
             },
             screens: {
-                sm: '375px',   // Mobile
+                'sm': '375px',   // Mobile
                 '3xl': '1440px', // Desktop
             },
         },
