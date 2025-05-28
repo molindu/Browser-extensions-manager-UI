@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/molindu/Browser-extensions-manager-UI.git)
+- Live Site URL: [live site URL here](https://github.com/molindu/Browser-extensions-manager-UI.git)
 
 ## My process
 
@@ -70,4 +70,4 @@ const filteredData = extensions.filter(item => {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Molindu Yasoda](https://github.com/molindu/Browser-extensions-manager-UI.git)
