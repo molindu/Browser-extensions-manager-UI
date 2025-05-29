@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/molindu/Browser-extensions-manager-UI.git)
-- Live Site URL: [live site URL here](https://github.com/molindu/Browser-extensions-manager-UI.git)
+- Live Site URL: [live site URL here](https://molindu.github.io/Browser-extensions-manager-UI/)
 
 ## My process
 
@@ -42,6 +42,8 @@ To see how you can add code snippets, see below:
 
 ```js
 const [darkMode, setDarkMode] = useState(false);
+const [filter, setFilter] = useState('All');
+const [extensions, setExtensions] = useState(data);
 ```
 ```ts
 type FilterBarProps = {
@@ -49,6 +51,17 @@ type FilterBarProps = {
     setFilter: (filter: string) => void;
     darkMode: boolean;
 }
+
+type ExtensionLoaderProps = {
+    filteredData: {
+        name: string;
+        description: string;
+        logo: string;
+        isActive: boolean;
+    }[];
+    handleRemove: (name: string) => void;
+    darkMode: boolean;
+};
 ```
 ```js
 const filteredData = extensions.filter(item => {
