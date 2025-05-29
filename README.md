@@ -84,3 +84,8 @@ const filteredData = extensions.filter(item => {
 ## Author
 
 - Website - [Molindu Yasoda](https://github.com/molindu/Browser-extensions-manager-UI.git)
+
+## Other project for references
+
+- https://github.com/starboush-t/Browser-Extensions-Manager-UI/tree/main
+- https://github.com/osaaroh/67_browser_extension_manager_UI
